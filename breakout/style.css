@@ -1,0 +1,46 @@
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid 4px black;
+    margin-top: 10px;
+    background-image: url("taustakuva.jpg");
+  }
+  
+  button {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+  }
+
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(164, 94, 230);
+    border: solid 2px rgb(105, 62, 145);
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border: solid 2px black;
+    box-shadow: 5px 5px;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: white;
+    background-image: radial-gradient(circle, white, gray, black);
+  }
+
